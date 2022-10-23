@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ .article_desktop {
+  display: none;
+ }
+
+.image_article_container{
+  position: relative;
+} 
+
+.article {
+  margin-top: 26px;
+}
+
+.baidge {
+  position: absolute;
+  width: 99px;
+  height: 35px;
+  background-color: #FED74B;
+  top:41px;
+  left: 0px;
+  text-align:center;
+  font-size: 12px;
+  font-family: Open Sans-bold;
+  font-weight: 600px;
+  line-height: 35px;
+}
+
+
+.details_trip, .time_trip_list {
+  list-style-type: none;
+  }
+
+.time_today {
+  display: inline;
+  }
+
+.btn_more_detailed {
+  background-color: yellow; 
+  border: solid yellow;
+  border-radius: 20px;
+  }
+
+.price_detailed_trip {
+  display: flex;
+  }
+
+.check_details{
+  color: #FECF01;
+  width: 16px;
+  }
+  .details_item {
+    margin-left: 20px;
+  }
+
+.time_trip {
+  border: solid 1px #D9E8FF;
+  background-color: #D9E8FF;
+  border-radius: 11px;
+  width: 64px;
+  height: 24px;
+  font-family: Open Sans-regular;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 24px;
+  }
+
+
+
+  .time_trip:not(:first-child) {
+    margin-left: 2px;
+  }
+
+
+.time_trip_list {
+  display: flex;
+  }
+
+  .article_mobile {
+    width: 341px;
+    border: solid #E5E5E5;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+
+  .watch {
+    width: 16px;
+    height: 16px;
+  }
+
+  
+  .article_header {
+    font-family: Open Sans-bold;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    margin-top: 10px;
+  }
+
+  .about_trip {
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-right: 12px;
+  }
+  
+  .watch_trip {
+    height: 16px;  
+    display: flex;
+    align-items: center;
+  }
+
+  .length_trip {
+    color: #9E9E9E;
+    font-size: 12px;
+    font-family: Open Sans;
+    margin-left: 9px;
+
+  }
+
+ .details_new_trip {
+   margin-top: 21px; 
+ }
+ 
+ .details_trip_item:not(:first-child) {
+  margin-top: 9px;
+ }
+
+ .details_item {
+  font-family: Open Sans-regular;
+  font-size: 14px;
+  line-height: 20px;
+ }
+
+ .time_trip_list {
+  margin-left: 32px;
+  margin-top: 7px;
+ }
+
+ .price_detailed_trip {
+  width: 302px;
+  margin-top: 35px;
+  margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .price_trip {
+  font-size: 30px;
+  font-family: Open Sans-regular;
+ }
+
+ .price_trip_inplace {
+  font-size: 10px;
+  font-family: Open Sans-regular;
+ }
+
+ .btn_more_detailed {
+  width: 165px;
+  height: 44px;
+  background-color: #FED74B;
+  border-radius: 20px;
+  border: solid #CBA500 1px;
+  font-family: Open Sans-regular;
+  font-size: 14px;
+  color: #404040;
+ }
+
+
+ .baidge_new_two {
+  background-color: #7553FF;
+  width: 129px;
+  height: 43px;
+  left: 0px;
+  top: 0px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 20px 0px 11px 0px;
+ }
+
+
+ @media (min-width: 1199px) {
+ .article_mobile {
+  display: none;
+ }
+
+
+ .baidge_desktop1 {
+  width: 154px;
+  height: 42px;
+  background-color: #099CE8;
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600px;
+  font-family: Open Sans-regular;
+  line-height: 42px;
+ }
+
+ .article_desktop {
+  display: flex;
+  border: solid 1px #8E8E8E;
+  border-radius: 20px;
+  width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 67px;
+ }
+
+ .article_desktop1 {
+  margin-top: 67px;
+ }
+ .image_article_container_desktop {
+  height: 369px;
+  position: relative;
+  padding: 0;
+ }
+
+ .image_article_container_desktop3 {
+  height: 368px;
+ }
+
+ .article_header_desktop {
+  font-family: Open Sans-regular;
+  font-size: 26px;
+  margin-top: 16px;
+  font-weight: 400px;
+ }
+
+ .price_detailed_trip_desktop {
+   width: 330px;
+   display: flex;
+   margin-top: 28px;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .about_trip_desktop {
+  margin-left: 23px;
+  margin-right: 17px;
+ }
+ .watch_trip_desktop {
+  margin-top: 11px;
+  height: 16px;  
+  display: flex;
+  align-items: center;
+ }
+
+ .details_trip_desktop {
+  margin-top: 9px;
+ }
+
+ .length_trip_desktop {
+  font-weight: 400;
+  font-family: Open Sans-regular;
+  font-size: 14px;
+  color: #9E9E9E;
+  margin-left: 9px;
+ }
+
+ .details_trip_desktop {
+  list-style-type: none;
+ }
+
+.details_item_desktop {
+  margin-left: 14px;
+  font-size: 18px;
+  font-family: Open Sans-regular;
+  color: #343434;
+}
+
+
+.today {
+  display: flex;
+  align-items: center;
+}
+
+.time_trip_desktop {
+  width: 73px;
+  height: 28px;
+  background-color: #C5DCFF;
+  border-radius: 11px;
+  font-size: 16px;
+  font-family: Open Sans-regular;
+  margin-left: 4px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.time_trip_list_desktop {
+  margin-left: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
+.price_trip_inplace_desktop {
+  font-size: 14px;
+  font-family: Open Sans-regular;
+  margin-top: 2px;
+}
+
+.desktop_time_two {
+  background-color: #6BA6FF;
+}
+
+.price_trip_desktop {
+  font-size: 36px;
+  font-family: Open Sans-regular;
+}
+
+.btn_more_detailed_desktop {
+  width: 187px;
+  height: 52px;
+  border-radius: 23px;
+  background-color: #FFD83C;
+  font-size: 18px;
+  font-family: Open Sans-regular;
+  border: none;
+}
+
+.baidge_desktop2{
+  position: absolute;
+  width: 180px;
+  height: 45px;
+  background-color: #FFD83B;
+  font-family: Open Sans-regular;
+  font-weight: 600px;
+  font-size: 16px;
+  color: #323232;
+  line-height: 45px;
+}
+.article_desktop2, .article_desktop3 {
+  margin-top: 63px;
+}
+.time_trip_more {
+  width: 73px;
+  height: 28px;
+  background-color: #C5DCFF;
+  border-radius: 11px;
+  font-size: 16px;
+  font-family: Open Sans-regular;
+  margin-left: 4px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+}
+
+.time_trip_less {
+  width: 73px;
+  height: 28px;
+  background-color: #C5DCFF;
+  border-radius: 11px;
+  font-size: 16px;
+  font-family: Open Sans-regular;
+  margin-left: 4px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+}
+
+.details_trip_item_desktop:not(:first-child) {
+  margin-top: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
