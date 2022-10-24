@@ -352,7 +352,7 @@
   font-size: 14px;
   font-family: "Open Sans-regular";
   margin-top: 2px;
-  line-height: 20px
+  line-height: 20px;
 }
 
 .desktop_time_two {
@@ -362,7 +362,7 @@
 .price_trip_desktop {
   font-size: 36px;
   font-family: "Open Sans-regular";
-  line-height: 20px;
+  line-height: 32px;
 }
 
 .btn_more_detailed_desktop {
