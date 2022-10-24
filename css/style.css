@@ -174,7 +174,7 @@
  .price_detailed_trip {
   width: 302px;
   margin-top: 35px;
-  margin-bottom: 19px;
+  margin-bottom:19px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -288,12 +288,6 @@
    align-items: center;
  }
 
- .price_trip_container_desktop {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 52px;
- }
  
  .about_trip_desktop {
   margin-left: 23px;
