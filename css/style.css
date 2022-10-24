@@ -24,7 +24,21 @@
 
 .image_article_container{
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 } 
+
+.image_mobile1 {
+  width: 341px;
+  height: 220px;
+  background-image: url("../images/image_mobile1.png");
+}
+
+.image_mobile2{
+  width: 341px;
+  height: 284px;
+  background-image: url("../images/image_mobile2.png");
+}
 
 .article {
   margin-top: 26px;
@@ -169,11 +183,13 @@
  .price_trip {
   font-size: 30px;
   font-family: "Open Sans-regular";
+  line-height: 20px;
  }
 
  .price_trip_inplace {
   font-size: 10px;
   font-family: "Open Sans-regular";
+  line-height: 20px;
  }
 
  .btn_more_detailed {
@@ -220,11 +236,12 @@
   line-height: 42px;
  }
 
+
  .article_desktop {
   display: flex;
   border: solid 1px #8E8E8E;
   border-radius: 20px;
-  width: 1070px;
+  min-width: 1070px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 67px;
@@ -233,15 +250,28 @@
  .article_desktop1 {
   margin-top: 67px;
  }
+
  .image_article_container_desktop {
-  height: 369px;
   position: relative;
-  padding: 0;
+  background-repeat: no-repeat;
  }
 
- .image_article_container_desktop3 {
-  height: 368px;
- }
+.image_desktop1 {
+  background-image: url("../images/desktop_image1.png");
+  min-width: 473px;
+  min-height: 369px;
+}
+.image_desktop2 {
+  background-image: url("../images/desktop_image2.png");
+  min-width: 473px;
+  min-height: 369px;
+}
+
+.image_desktop3 {
+  background-image: url("../images/desktop_image3.png");
+  min-width: 467px;
+  min-height: 368px;
+}
 
  .article_header_desktop {
   font-family: "Open Sans-regular";
@@ -254,10 +284,17 @@
    width: 330px;
    display: flex;
    margin-top: 28px;
-   align-items: center;
    justify-content: space-between;
+   align-items: center;
  }
 
+ .price_trip_container_desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 52px;
+ }
+ 
  .about_trip_desktop {
   margin-left: 23px;
   margin-right: 17px;
@@ -290,6 +327,7 @@
   font-size: 18px;
   font-family: "Open Sans-regular";
   color: #343434;
+  line-height: 20px;
 }
 
 
@@ -320,6 +358,7 @@
   font-size: 14px;
   font-family: "Open Sans-regular";
   margin-top: 2px;
+  line-height: 20px
 }
 
 .desktop_time_two {
@@ -329,6 +368,7 @@
 .price_trip_desktop {
   font-size: 36px;
   font-family: "Open Sans-regular";
+  line-height: 20px;
 }
 
 .btn_more_detailed_desktop {
@@ -346,12 +386,13 @@
   width: 180px;
   height: 45px;
   background-color: #FFD83B;
-  font-family: "Open Sans-regular";
+  font-family: "Open Sans-bold";
   font-weight: 600px;
   font-size: 16px;
   color: #323232;
   line-height: 45px;
 }
+
 .article_desktop2, .article_desktop3 {
   margin-top: 63px;
 }
