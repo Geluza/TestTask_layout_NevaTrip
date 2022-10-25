@@ -78,9 +78,18 @@
   }
 
 .check_details{
-  color: #FECF01;
+  background-image: url("../images/Vector.png");
+  height: 12px;
   width: 16px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  display: block;
   }
+
+ .details_trip_item3 {
+  display: flex;
+  align-items: flex-start;
+ }
   .details_item {
     margin-left: 20px;
   }
@@ -115,6 +124,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+
   }
 
   .watch {
@@ -160,6 +170,11 @@
   margin-top: 9px;
  }
 
+ .details_trip_item {
+  display: flex;
+  align-items: center;
+ }
+
  .details_item {
   font-family: "Open Sans-regular";
   font-size: 14px;
@@ -170,6 +185,8 @@
   margin-left: 32px;
   margin-top: 7px;
  }
+ 
+ 
 
  .price_detailed_trip {
   width: 302px;
@@ -183,7 +200,7 @@
  .price_trip {
   font-size: 30px;
   font-family: "Open Sans-regular";
-  line-height: 20px;
+  line-height: 24px;
  }
 
  .price_trip_inplace {
@@ -315,6 +332,10 @@
  .details_trip_desktop {
   list-style-type: none;
  }
+.details_trip_item_desktop {
+  display: flex;
+  align-items: center;
+}
 
 .details_item_desktop {
   margin-left: 14px;

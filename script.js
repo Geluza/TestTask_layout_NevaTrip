@@ -3,10 +3,11 @@ const btnMore = document.querySelector(".time_trip_more");
 const timeList = document.querySelector(".time_more");
 const flexToday = document.querySelector(".details_trip_item_more");
 
-btnMore.onclick = function (e){
+btnMore.onclick = function (e) {
     e.preventDefault();
     btnMore.remove();
-    flexToday.style.display = "block";
+    //flexToday.style.display = "block";
+    flexToday.style.flexWrap = "wrap";
     timeList.innerHTML += `<li class= "added_elem time_trip_desktop">12:00</li>
     <li class="added_elem time_trip_desktop">12:00</li>
     <li class="added_elem time_trip_desktop">12:00</li>
